@@ -1,6 +1,8 @@
 #Create a Stock class with one constructor with symbol and company_name parameters, 
 #private attributes(variables) symbol and company_name, and public functions get_symbol and 
 #get_company_name.
+def test_config():
+    return True
 
 class Stock:
     def __init__(self, symbol, company_name):
